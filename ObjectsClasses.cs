@@ -10,7 +10,6 @@ var headset = new Product
     ProductPrice = 80.0m
 };
 
-
 public class Product
 {
 
@@ -26,5 +25,4 @@ public class Product
     public Product()
     {
     }
-
 }
