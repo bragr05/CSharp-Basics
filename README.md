@@ -11,9 +11,9 @@ Explanation of the topics are shown in individual `.cs` files where they are cop
 # Table of Contents
 
 -   Object Oriented Programming
-    -   Class and objects on file 'ObjectsClasses.cs'
-    -   Inheritance on file 'Inheritance.cs'
-    -   Method overwrite on file 'OverrideMethods.cs'
+    -   Class and objects on file `ObjectsClasses.cs`
+    -   Inheritance on file `Inheritance.cs`
+    -   Method overwrite on file `OverrideMethods.cs`
     -   Interfaces
     -   Generics
 -   Libraries
