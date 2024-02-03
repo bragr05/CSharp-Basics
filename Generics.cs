@@ -1,3 +1,4 @@
+// Generics can be used even with your own classes. 
 int a = 5, b = 10;
 Console.WriteLine($"Before the exchange: a = {a}, b = {b}");
 GenericsExample.ExchangeValues(ref a, ref b);

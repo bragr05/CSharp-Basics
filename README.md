@@ -17,4 +17,4 @@ Explanation of the topics are shown in individual `.cs` files where they are cop
     -   Interfaces on file `Interfaces.cs`
     -   Generics on file `Generics.cs`
 -   Libraries
-    -   Serialization and deserialization with `System.Text.Json`
+    -   Serialization and deserialization with `System.Text.Json` on file `SerializationDeserialization`
