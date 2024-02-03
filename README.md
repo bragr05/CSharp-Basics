@@ -14,7 +14,7 @@ Explanation of the topics are shown in individual `.cs` files where they are cop
     -   Class and objects on file `ObjectsClasses.cs`
     -   Inheritance on file `Inheritance.cs`
     -   Method overwrite on file `OverrideMethods.cs`
-    -   Interfaces
-    -   Generics
+    -   Interfaces on file `Interfaces.cs`
+    -   Generics on file `Generics.cs`
 -   Libraries
     -   Serialization and deserialization with `System.Text.Json`
