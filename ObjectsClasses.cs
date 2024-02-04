@@ -1,7 +1,7 @@
 public class Product
 {
 
-    public string ProductName { get; set; }
+    public string? ProductName { get; set; }
     public decimal ProductPrice { get; set; }
 
     public Product(string name, decimal price)
@@ -12,6 +12,8 @@ public class Product
 
     public Product()
     {
+        ProductName = "Default Name";
+        ProductPrice = 15;
     }
 
     public static void execution()
