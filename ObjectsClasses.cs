@@ -1,15 +1,3 @@
-// Forms of creating objects
-Product computer = new Product("HP Victus", 500.0m);
-
-var phone = new Product("Samsung S24 Ultra", 999.0m);
-
-// This form is used when there is no constructor or there is one that does not expect parameters.
-var headset = new Product
-{
-    ProductName = "Razer",
-    ProductPrice = 80.0m
-};
-
 public class Product
 {
 
@@ -24,5 +12,20 @@ public class Product
 
     public Product()
     {
+    }
+
+    public static void execution()
+    {
+        // Forms of creating objects
+        Product computer = new Product("HP Victus", 500.0m);
+
+        var phone = new Product("Samsung S24 Ultra", 999.0m);
+
+        // This form is used when there is no constructor or there is one that does not expect parameters.
+        var headset = new Product
+        {
+            ProductName = "Razer",
+            ProductPrice = 80.0m
+        };
     }
 }
