@@ -11,10 +11,14 @@ Explanation of the topics are shown in individual `.cs` files where they are cop
 # Table of Contents
 
 -   Object Oriented Programming
+
     -   Class and objects on file `ObjectsClasses.cs`
     -   Inheritance on file `Inheritance.cs`
     -   Method overwrite on file `OverrideMethods.cs`
     -   Interfaces on file `Interfaces.cs`
     -   Generics on file `Generics.cs`
+
+-   Functional Programming
+    -   Records on file `Records.cs`
 -   Libraries
     -   Serialization and deserialization with `System.Text.Json` on file `SerializationDeserialization.cs`
