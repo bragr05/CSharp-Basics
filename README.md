@@ -19,6 +19,8 @@ Explanation of the topics are shown in individual `.cs` files where they are cop
     -   Generics on file `Generics.cs`
 
 -   Functional Programming
+    -   Functional Programming on file `FunctionalProgramming.cs`
     -   Records on file `Records.cs`
+    -   Delegates on file `Delegates.cs`
 -   Libraries
     -   Serialization and deserialization with `System.Text.Json` on file `SerializationDeserialization.cs`
