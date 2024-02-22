@@ -1,59 +1,59 @@
+// They allow the typing of functions. The ones shown in the code are the default ones, although it is possible to create your own delegates.
 class Delegates
 {
 
-    public void DelegateFunc()
-    {
-        // Define a Func delegate that takes two numbers and returns the sum
-        Func<int, int, int> sum = (a, b) => a + b;
+    #region "Example of custom delegate"
 
-        // Function using the Func delegate to add two numbers together
+    delegate void MyDelegate(string message);
+
+    static void Greetings(string message)
+    {
+        Console.WriteLine("Hello, " + message + "!");
+    }
+    public void UseCustomDelegate()
+    {
+        MyDelegate myDelegate;
+        myDelegate = Greetings;
+    }
+
+    #endregion
+
+    public void ExampleDefaultDelegates()
+    {
+        // Delegado Func
+        Func<int, int, int> sum = (a, b) => a + b;
         int Add(int x, int y)
         {
             return sum(x, y);
         }
-
         int resultado = Add(3, 5);
-    }
+        Console.WriteLine("Func Result: " + resultado);
 
-    public void DelegateAction()
-    {
-        // Define an Action delegate that prints a message
+        // Delegado Action
         Action<string> printMessage = message => Console.WriteLine(message);
-
-        // Function that uses the delegate Action to print a message
         void Print(string mensaje)
         {
             printMessage(mensaje);
         }
-
         Print("Hola mundo!");
-    }
 
-    public void DelegatePredicate()
-    {
-        // Define a Predicate delegate that checks whether a number is even
+        // Delegado Predicate
         Predicate<int> isEven = num => num % 2 == 0;
-
-        // Function that uses the Predicate delegate to check if a number is an even number
         bool IsEven(int numero)
         {
             return isEven(numero);
         }
-
         bool isEvenResult = IsEven(4);
-    }
+        Console.WriteLine("Predicate Result: " + isEvenResult);
 
-    public void DelegateComparison()
-    {
-        // Define a Comparison delegate that compares two strings alphabetically
+        // Delegado Comparison
         Comparison<string> comparator = (string1, string2) => string1.CompareTo(string2);
-
-        // Function that uses the Comparison delegate to compare two strings
         int CompareStrings(string string1, string string2)
         {
             return comparator(string1, string2);
         }
-
         int resultComparison = CompareStrings("manzana", "banana");
+        Console.WriteLine("Comparison Result: " + resultComparison);
     }
+
 }

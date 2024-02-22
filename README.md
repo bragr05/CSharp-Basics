@@ -17,10 +17,14 @@ Explanation of the topics are shown in individual `.cs` files where they are cop
     -   Method overwrite on file `OverrideMethods.cs`
     -   Interfaces on file `Interfaces.cs`
     -   Generics on file `Generics.cs`
+    -   LINQ on file `LINQ.cs`
 
 -   Functional Programming
+
     -   Functional Programming on file `FunctionalProgramming.cs`
     -   Records on file `Records.cs`
     -   Delegates on file `Delegates.cs`
+    -   Lambda expressions on file `LambdaExpressions.cs`
+
 -   Libraries
     -   Serialization and deserialization with `System.Text.Json` on file `SerializationDeserialization.cs`
