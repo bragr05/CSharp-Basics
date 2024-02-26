@@ -2,7 +2,8 @@ class LambdaExpressions
 {
     public static void execution()
     {
-        // Declaration  form #1
+        // Delegates are used in lambda expressions to know the data type of the parameters (e.g. a and b).
+        // Declaration  form #1 
         Func<int, int, int> subtract = (a, b) => a - b;
 
         // Declaration form #2
